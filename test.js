@@ -11,7 +11,7 @@ const fixture = `
 `;
 
 test(t => {
-	t.same(fn(fixture, {h: 'help'}), {
+	t.deepEqual(fn(fixture, {h: 'help'}), {
 		r: 'rainbow',
 		m: 'magic',
 		h: 'help'
