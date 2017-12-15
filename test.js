@@ -1,5 +1,5 @@
 import test from 'ava';
-import fn from './';
+import m from '.';
 
 const fixture = `
 	Usage
@@ -11,7 +11,7 @@ const fixture = `
 `;
 
 test(t => {
-	t.deepEqual(fn(fixture, {h: 'help'}), {
+	t.deepEqual(m(fixture, {h: 'help'}), {
 		r: 'rainbow',
 		m: 'magic',
 		h: 'help'

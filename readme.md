@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save aliases
+$ npm install aliases
 ```
 
 
@@ -34,7 +34,7 @@ aliases(help, {h: 'help'});
 */
 ```
 
-The result can be passed directly to the [meow](https://github.com/sindresorhus/meow) or [minimist](https://github.com/substack/minimist) `alias` option.
+The result can be passed directly to the [minimist](https://github.com/substack/minimist) `alias` option or used in [meow](https://github.com/sindresorhus/meow) with some effort.
 
 
 ## API
@@ -49,7 +49,7 @@ CLI help output.
 
 #### extras
 
-Type: `object`
+Type: `Object`
 
 Extra aliases to mix into the result.
 
@@ -61,4 +61,4 @@ Extra aliases to mix into the result.
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

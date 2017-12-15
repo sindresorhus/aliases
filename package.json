@@ -1,42 +1,41 @@
 {
-  "name": "aliases",
-  "version": "0.1.0",
-  "description": "Parse flag aliases in CLI help output",
-  "license": "MIT",
-  "repository": "sindresorhus/aliases",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "parse",
-    "help",
-    "cli",
-    "argv",
-    "command-line",
-    "man",
-    "flags",
-    "arguments",
-    "alias",
-    "aliases",
-    "short"
-  ],
-  "dependencies": {
-    "object-assign": "^4.0.1",
-    "parse-help": "^0.1.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  }
+	"name": "aliases",
+	"version": "0.1.0",
+	"description": "Parse flag aliases in CLI help output",
+	"license": "MIT",
+	"repository": "sindresorhus/aliases",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"parse",
+		"help",
+		"cli",
+		"argv",
+		"command-line",
+		"man",
+		"flags",
+		"arguments",
+		"alias",
+		"aliases",
+		"short"
+	],
+	"dependencies": {
+		"parse-help": "^1.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
 }
