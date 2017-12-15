@@ -1,6 +1,6 @@
 {
 	"name": "aliases",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "Parse flag aliases in CLI help output",
 	"license": "MIT",
 	"repository": "sindresorhus/aliases",
