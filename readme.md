@@ -1,4 +1,4 @@
-# aliases [![Build Status](https://travis-ci.org/sindresorhus/aliases.svg?branch=master)](https://travis-ci.org/sindresorhus/aliases)
+# aliases
 
 > Parse flag aliases in CLI help output
 
