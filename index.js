@@ -1,4 +1,5 @@
-'use strict';
-const parseHelp = require('parse-help');
+import parseHelp from 'parse-help';
 
-module.exports = (input, extras) => Object.assign(parseHelp(input).aliases, extras);
+export default function aliases(input, extras) {
+	return Object.assign(parseHelp(input).aliases, extras);
+}

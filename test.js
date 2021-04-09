@@ -1,5 +1,5 @@
 import test from 'ava';
-import m from '.';
+import aliases from './index.js';
 
 const fixture = `
 	Usage
@@ -10,8 +10,8 @@ const fixture = `
 	  -m, --magic    Aenean commodo ligula eget dolor
 `;
 
-test(t => {
-	t.deepEqual(m(fixture, {h: 'help'}), {
+test('main', t => {
+	t.deepEqual(aliases(fixture, {h: 'help'}), {
 		r: 'rainbow',
 		m: 'magic',
 		h: 'help'
